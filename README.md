@@ -10,6 +10,7 @@ npm install -g c-ant
 
 ````
 c-ant init <project-name>
+cd <project-name>
 yarn
 yarn start
 ````
