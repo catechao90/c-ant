@@ -13,4 +13,5 @@ c-ant init <project-name>
 cd <project-name>
 yarn
 yarn start
+npm i (e2e 是基于nightwatch的，但是yarn里面暂时没有安装包，所以需要这行代码)
 ````
