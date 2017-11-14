@@ -25,7 +25,7 @@ function downloadAndGenerate (tmp) {
   spinner.start()
   // Remove if local template exists
   if (exists(tmp)) rm(tmp)
-  download("catezhao1985/ant-demo", tmp, { clone: false }, function (err) {
+  download("catechao90/ant-demo", tmp, { clone: false }, function (err) {
     spinner.stop()
     if (err) logger.fatal('Failed to download repo ' + template + ': ' + err.message.trim())    
   })
